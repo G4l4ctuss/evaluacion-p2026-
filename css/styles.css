@@ -1,0 +1,248 @@
+/* =====================================================
+   styles.css — TAWENO SUSHI
+   Completa los estilos según el mockup adjunto
+   ===================================================== */
+
+/* Reset base */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+body {
+  font-size: 1.6rem;
+}
+
+/* =====================================================
+   HEADER - NAVBAR
+   ===================================================== */
+nav {
+  background-color: #ffffff;
+  height: 5.2rem;
+  border-bottom: 0.1rem solid #e0ddd5;
+  padding: 0 3.2rem; /* Padding lateral de 3.2rem */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #1a1a1a;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none; /* Quita los puntos */
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-right: 2.8rem;
+}
+
+nav ul a {
+  font-size: 1.2rem;
+  color: #555555;
+  text-decoration: none;
+}
+
+.btn-reservar {
+  background-color: #c0392b;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.6rem 1.6rem;
+  border-radius: 0.6rem;
+  text-decoration: none;
+}
+
+.btn-reservar:hover {
+  background-color: #a93226;
+}
+
+/* =====================================================
+   HEADER - HERO (ZONA PRINCIPAL)
+   ===================================================== */
+.hero {
+  background-color: #000000;
+  padding: 6.4rem 3.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-content .pill {
+  color: #c0392b;
+  border: 0.1rem solid rgba(192, 57, 43, 0.5);
+  font-size: 1rem;
+  padding: 0.4rem 1.2rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.hero-content h1 {
+  color: #ffffff;
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1.4rem;
+  margin-top: 0;
+}
+
+.hero-content h1 span {
+  color: #c0392b;
+}
+
+.hero-content p {
+  color: #888888;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  max-width: 34rem;
+  margin-bottom: 2.8rem;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.btn-primario {
+  background-color: #c0392b;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem 2.2rem;
+  border-radius: 0.6rem;
+  margin-right: 1rem; /* Margen entre botones */
+  text-decoration: none;
+}
+
+.btn-primario:hover {
+  background-color: #a93226;
+}
+
+.btn-secundario {
+  background-color: transparent;
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+  color: #cccccc;
+  font-size: 1.2rem;
+  padding: 1rem 1.8rem;
+  border-radius: 0.6rem;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #111111;
+  padding: 3.6rem 3.2rem 2rem;
+}
+
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+
+.footer-columns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 2.8rem;
+}
+
+
+.brand-col {
+  flex-basis: 35%;
+}
+
+.brand-col h3 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+
+.brand-col p {
+  color: #666666;
+  font-size: 1.1rem;
+  line-height: 1.9;
+}
+
+
+.nav-col {
+  flex-basis: 18%;
+}
+
+.nav-col h4 {
+  color: #999999;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.nav-col li {
+  font-size: 1.1rem;
+  color: #666666;
+  line-height: 1.9;
+}
+
+.nav-col a {
+  color: #666666;
+}
+
+
+.footer-bottom {
+  border-top: 0.1rem solid #222222;
+  padding-top: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-bottom p {
+  font-size: 1rem;
+  color: #444444;
+}
+
+.footer-bottom ul {
+  display: flex;
+}
+
+.footer-bottom li {
+  margin-right: 1.6rem;
+}
+
+.footer-bottom a {
+  font-size: 1rem;
+  color: #444444;
+}
