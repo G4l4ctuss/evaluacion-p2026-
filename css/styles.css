@@ -156,6 +156,384 @@ nav ul a {
   text-decoration: none;
 }
 
+/* =====================================================
+   CLASE CONTENEDOR GLOBAL
+   ===================================================== */
+.container {
+  width: 140rem;
+  margin: 0 auto;
+}
+
+/* =====================================================
+   2. NUESTRO MENÚ
+   ===================================================== */
+.menu-section {
+  background-color: #ffffff;
+  padding: 4.8rem 3.2rem;
+}
+
+.menu-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 2.8rem;
+}
+
+.section-pill {
+  color: #c0392b;
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+  display: inline-block;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.link-ver-todos {
+  color: #555555;
+  font-size: 1.2rem;
+  border-bottom: 0.1rem solid #e0ddd5;
+  text-decoration: none;
+}
+
+.link-ver-todos:hover {
+  color: #c0392b;
+  border-color: #c0392b;
+}
+
+.menu-grid {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.menu-card {
+  flex-basis: 24%; /* Ligeramente menor a 25% para permitir el space-between */
+  background-color: #ffffff;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card-img {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 1.2rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+.card-desc {
+  font-size: 1.1rem;
+  color: #555555;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-price {
+  color: #c0392b;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.btn-add {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background-color: #c0392b;
+}
+
+/* =====================================================
+   3. LOS MÁS PEDIDOS
+   ===================================================== */
+.top-orders-section {
+  background-color: #f2f0eb;
+  padding: 4.8rem 3.2rem;
+  border-top: 0.1rem solid #e0ddd5;
+  border-bottom: 0.1rem solid #e0ddd5;
+}
+
+.top-orders-layout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.top-orders-intro {
+  flex-basis: 28rem;
+  flex-shrink: 0;
+  margin-right: 4.8rem;
+}
+
+.top-orders-intro .section-title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.section-desc {
+  font-size: 1.2rem;
+  color: #555555;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.top-orders-list {
+  flex-basis: 100%;
+  flex: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 0.1rem solid #e0ddd5;
+}
+
+.order-item:last-child {
+  border-bottom: none;
+}
+
+.order-thumb {
+  width: 5.2rem;
+  height: 5.2rem;
+  object-fit: cover;
+  border-radius: 0.8rem;
+  margin-right: 1.4rem;
+}
+
+.order-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-name {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.order-desc {
+  font-size: 1.1rem;
+  color: #555555;
+  margin-top: 0.4rem;
+}
+
+.order-meta {
+  margin-left: auto;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-price {
+  color: #c0392b;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.order-count {
+  font-size: 1rem;
+  color: #555555;
+  margin-top: 0.4rem;
+}
+
+/* =====================================================
+   4. SOBRE NOSOTROS
+   ===================================================== */
+.about-section {
+  background-color: #ffffff;
+  padding: 4.8rem 3.2rem;
+}
+
+.about-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-text {
+  flex-basis: 45%;
+}
+
+.about-text .section-title {
+  margin-bottom: 1.6rem;
+}
+
+.about-desc {
+  font-size: 1.3rem;
+  color: #555555;
+  line-height: 1.8;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+}
+
+.about-stats {
+  flex-basis: 45%;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.stat-box {
+  flex-basis: 33.33%;
+  background-color: #ffffff;
+  padding: 2rem 1.6rem;
+  text-align: center;
+  border-right: 0.1rem solid #e0ddd5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stat-box:last-child {
+  border-right: none;
+}
+
+.stat-number {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  color: #555555;
+  margin-top: 0.4rem;
+}
+
+/* =====================================================
+   5. CONTACTO
+   ===================================================== */
+.contact-section {
+  background-color: #f2f0eb;
+  padding: 4.8rem 3.2rem;
+  border-top: 0.1rem solid #e0ddd5;
+}
+
+.contact-layout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contact-info {
+  flex-basis: 40%;
+}
+
+.contact-info .section-title {
+  margin-bottom: 1.6rem;
+}
+
+.contact-desc {
+  font-size: 1.3rem;
+  color: #555555;
+  line-height: 1.8;
+  margin-top: 0;
+  margin-bottom: 2.4rem;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #555555;
+}
+
+.contact-link {
+  color: #c0392b;
+  text-decoration: none;
+}
+
+.contact-form-card {
+  flex-basis: 50%;
+  background-color: #ffffff;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  padding: 2.4rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  color: #555555;
+  margin-bottom: 0.4rem;
+}
+
+.form-group input, 
+.form-group textarea {
+  background-color: #f9f8f5;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 0.6rem;
+  padding: 0.9rem 1.2rem;
+  font-size: 1.2rem;
+  width: 100%;
+  font-family: inherit;
+}
+
+.btn-submit {
+  background-color: #c0392b;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.6rem;
+  width: 100%;
+  margin-top: 0.4rem;
+  cursor: pointer;
+}
+
 footer {
   background-color: #111111;
   padding: 3.6rem 3.2rem 2rem;
